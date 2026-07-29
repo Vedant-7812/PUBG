@@ -13,7 +13,6 @@ from sklearn.metrics import (
     f1_score
 )
 st.title("PUBG Machine Learning Models")
-
 df = pd.read_csv("PUBG.csv")
 df.dropna(inplace=True)
 le = LabelEncoder()
